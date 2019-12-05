@@ -4,5 +4,16 @@ using UnityEngine;
 
 public class GittingUp3 : MonoBehaviour
 {
-   // Gitting Up Number 3 Project. 
+   public AudioSource back; 
+}
+
+void Start (){
+
+back = GetComponent<AudioSource>();
+back.Play();
+
+
+
+
+
 }
